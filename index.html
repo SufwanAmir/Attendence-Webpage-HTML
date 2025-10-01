@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Attendence-WebPage</title>
+         <link rel = "icon" type = "img/png" href = "COMSATS-University-logo.png">
     </head>
 <body>
     <div align = "center" style = "background-image: url(Comsats-Image.jpg); background-position: center;" alt = "COMSATS University background-image">
@@ -13,6 +14,12 @@
 
     <label for = "date">Select Date</label>
     <input type = "date" id = "date" name = "date">
+    <label for = "course">Select Course</label>
+    <select id = "course" name = "course">
+        <option>Web Technologies</option>
+        <option>Data Mining</option>
+        <option>Database Systems</option>
+    </select>
     <form>
     <table style = "width: 100%;" border="10">
     <caption><b>Attendence Sheet</b></caption>
@@ -124,6 +131,7 @@
     </table>
     <br>
     <button type = "submit">Submit Attendence</button>
+    <button type = "reset">Clear Form</button>
     <br><br>
     <a href = "index.html">Refresh Page</a>
     <br><br>
@@ -131,5 +139,9 @@
     <br><br>
     <a href = "https://github.com/SufwanAmir/Attendence-Webpage-HTML" target = "blank">View Source Code</a>
     </form>
+    <hr>
+    <footer style="text-align: center; margin-top: 20px;">
+        <p>Created by Sufwan Amir</p>
+    </footer>
 </body>  
 </html>
